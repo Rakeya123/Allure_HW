@@ -13,7 +13,7 @@ import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-@Tag("minimum")
+
 public class SelenideTest extends TestBase {
 
     @Test

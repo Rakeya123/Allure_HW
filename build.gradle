@@ -3,26 +3,31 @@ plugins {
     id 'io.qameta.allure' version '2.11.2'
 }
 
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+def allureVersion = "2.27.0"
+
+
 allure {
     report {
-        version.set("2.27.0")
+        version.set(allureVersion)
     }
-    adapter { // отвечает за появление папочки build/allure-results
-        aspectjWeaver.set(true) //обработка аннотации @Step
+    adapter {
+        aspectjWeaver.set(true)
         frameworks {
-            junit5 { //название фреймворка
-                adapterVersion.set("2.27.0") //версия интеграции фреймворка и Allure
+            junit5 {
+                adapterVersion.set(allureVersion)
             }
         }
     }
 }
 
+
 repositories {
     mavenCentral()
 }
 
-sourceCompatibility = 17
-targetCompatibility = 17
 
 dependencies {
     //noinspection VulnerableLibrariesLocal
