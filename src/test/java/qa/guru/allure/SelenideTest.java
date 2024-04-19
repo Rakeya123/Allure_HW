@@ -13,10 +13,10 @@ import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
+@Tag("Minimum")
 public class SelenideTest extends TestBase {
 
     @Test
-    @Tag("Minimum")
     @Feature("Issue в репозитории")
     @Story("Поиск Issue")
     @Owner("rakeya")
