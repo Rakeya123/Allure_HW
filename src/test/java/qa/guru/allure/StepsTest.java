@@ -22,7 +22,7 @@ public class StepsTest extends TestBase{
     @Severity(SeverityLevel.NORMAL)
     @DisplayName("Поиск столбца Рейтинг в разделе хабы с использованием steps и lambda")
     public void testLambdaStep() {
-        SelenideLogger.addListener("allure", new AllureSelenide());
+
 
         step("Открываем главную страницу Habr", () -> {
             open("https://habr.com/");

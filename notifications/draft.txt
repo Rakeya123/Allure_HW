@@ -1,0 +1,5 @@
+6994722678:AAGmzBQFEnzuFEZl9OyUdS6Uzz1H80CjwFk
+
+https://api.telegram.org/bot6994722678:AAGmzBQFEnzuFEZl9OyUdS6Uzz1H80CjwFk/getUpdates
+
+"id": -734345106
