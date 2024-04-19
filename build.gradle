@@ -38,6 +38,12 @@ dependencies {
     )
 }
 
+
+test{
+    systemProperty "chromeoptions.prefs", "intl.accept_languages=ru"
+    useJUnitPlatform()
+}
+
 tasks.withType(Test) {
     systemProperties(System.getProperties())
     useJUnitPlatform()
@@ -51,6 +57,7 @@ tasks.withType(Test) {
 }
 
 task minimum_test(type: Test) {
+
     useJUnitPlatform {
         includeTags("minimum")
     }

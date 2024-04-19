@@ -11,6 +11,8 @@ public class TestBase {
     static void beforeAll() {
         Configuration.browserSize = "1920Х1080";
         Configuration.pageLoadStrategy = "eager";
+        Configuration.browser = System.getProperty("browser", "chrome");
+        Configuration.browserVersion = System.getProperty("browserVersion", "120.0");
 
 
     }
