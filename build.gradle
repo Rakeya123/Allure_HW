@@ -50,7 +50,7 @@ tasks.withType(Test) {
     }
 }
 
-task simple_test(type: Test) {
+task minimum_test(type: Test) {
     useJUnitPlatform {
         includeTags("minimum")
     }
