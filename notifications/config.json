@@ -1,0 +1,17 @@
+{
+  "base": {
+    "project": "project name",
+    "environment": "qa.guru",
+    "comment": "comment here @rakeya12345",
+    "reportLink": "https://jenkins.autotests.cloud/job/teacher-iTerkin-qa_guru_23_jenkins_simple/9/",
+    "reportLink": "https://jenkins.autotests.cloud/job/demo_qa_bot_HW/ws/allure-report/",
+    "language": "en",
+    "allureFolder": "allure-report",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "6994722678:AAGmzBQFEnzuFEZl9OyUdS6Uzz1H80CjwFk",
+    "chat": "-734345106",
+    "replyTo": ""
+  }
+}
